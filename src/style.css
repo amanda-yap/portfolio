@@ -1,0 +1,76 @@
+
+:root {
+    --sand: #f6efe6;
+    --darkGrey: #1e1d1c;
+    background-color: var(--sand);
+}
+
+h1 {
+    font-family: "Source Serif 4", serif;
+    font-weight: 800;
+    font-size: 4.5rem;
+    color: var(--sand);
+    margin: 1rem;
+}
+
+h3 {
+    font-family: "Source Serif 4", serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--darkGrey);
+    text-align: center;
+}
+
+h4 {
+    font-family: "Source Serif 4", serif;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--darkGrey);
+    text-align: center;
+}
+
+p {
+    font-family: "Source Serif 4", serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--darkGrey);
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkGrey);
+    margin: 1rem;
+    height: 9rem;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    height: 25rem;
+}
+
+#info div {
+    border: 1.5px solid var(--darkGrey);
+    width: 24rem;
+    height: 100%;
+    padding: 0.75rem;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info div p {
+    margin: 0.5rem;
+}
+
+img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
